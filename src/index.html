@@ -1,13 +1,20 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World with Tailwind CSS</title>
+    <!-- Link to the Tailwind CSS output file -->
+    <link href="./src/output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-4xl font-bold text-blue-600">
+            Hello World with Tailwind CSS
+        </h1>
+        <p id="tailwind-version" class="mt-4 text-gray-500 text-lg">
+            Tailwind CSS version: 3.4.14
+        </p>
+    </div>
 </body>
 </html>
